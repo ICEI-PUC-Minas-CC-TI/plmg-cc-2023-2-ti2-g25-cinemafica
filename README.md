@@ -1,18 +1,23 @@
-# [Nome do projeto]
+# Cinemafica
 
-[Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.]
+  O tema do projeto é uma plataforma de recomendação de filmes voltada para ajudar os usuários a descobrir filmes e séries que combinam com seus interesses e gêneros de preferência.
+
+  Cinemafica aborda o problema comum de passar tempo excessivo procurando por filmes e séries para assistir nas plataformas de streaming. Com a grande quantidade de conteúdo disponível, usuários comumente se esforçam para encontrar opções que se alinham com suas preferências. A plataforma resolve esse problema oferecendo recomendações personalizadas baseadas nos gêneros preferidos do usuário, além de resenhas sinceras de usuários da plataforma, agilizando o processo de tomada de decisão e aprimorando sua experiência cinematográfica.
+
+
+
 
 ## Alunos integrantes da equipe
 
-* [Nome completo do aluno 1]
-* [Nome completo do aluno 2]
-* [Nome completo do aluno 3]
-* [Nome completo do aluno 4]
+* Ana Cristina Martins Silva
+* Kenia Teixeira de Paula Costa
+* Letícia Azevedo Cota Barbosa
+* Manoella Santos Diniz
 
 ## Professores responsáveis
 
-* [Nome completo do professor 1]
-* [Nome completo do professor 2]
+* Amália Soares Vieira de Vasconcelos
+* Wladmir Cardoso Brandao
 
 ## Instruções de utilização
 
