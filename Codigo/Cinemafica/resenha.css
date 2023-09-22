@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: #231d1e;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.nav > * {
+    cursor: pointer;
+    margin: 0 16px;
+}
+.content-section {
+    margin: 0 auto;
+    padding: 50px;
+}
+.info-container {
+    padding: 50px 32px 64px 0;
+    width: 45%;
+    line-height: 28px;
+}
+.logo-container h1 {
+    font-size: 55px;
+    margin-bottom: 55px;
+    line-height: 60px;
+}
+.title-info-metadata-wrapper {
+    color: white;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 65px;
+}
+.title-info-metadata-item span {
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.maturity-number {
+    border: 1px solid white;
+    padding: 0 5px;
+}
+.info-spacer {
+    color: white;
+}
+.btn1 {
+    margin-top: 20px;
+    gap: 20px;  
+    align-items: center;
+    display: flex;
+}
+.btn1-Play {
+    background-color: #ff8207;
+    border: none;
+    padding: 15px 35px;
+    cursor: pointer;
+}
+.list span {
+    cursor: pointer;
+    font-size: 14px;
+    padding: 13px 50px;
+    border: 1px solid white;
+}
+.btn1-Play:hover {
+    background-color: #231d1e;
+    border-radius: 0%;
+}
+.list span:hover {
+    background-color: #ffffff2d;
+}
+.datails-container {
+    margin: 40px 0 0;
+    animation: datails 1s ease-in-out forwards;
+}
+.title-info-synopsis {
+    height: 80px;
+    overflow: hidden;
+}
+.Recommandation-section {
+    bottom: 0;
+    padding: 20px;
+    border: 20px solid transparent;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text {
+    order: 1;
+}
+.arrow {
+    order: 2;
+}
+.circle {
+    cursor: pointer;
+    position: relative;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 25px;
+    border: 1px solid #fff;
+}
+.circle:hover {
+    border: 1px solid #bebebe;
+    background-color: white;
+}
+.circle:hover .next,
+.circle:hover .back {
+    color: black;
+}
+.back {
+    font-size: 16px !important;
+}
+.back , .next {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.wrapper {
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.wrapper .carousel {
+    cursor: pointer;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+.container-text {
+    animation: text-up 2s ease-in-out forwards;
+}
+@keyframes text-up  {
+    from {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.Recommandation-text {
+    color: #ff8207;
+    font-size: 25px;
+    font-weight: 400;
+}
+.carousel img {
+    margin-left: 14px;
+    animation: slide-up 0.5s ease-in-out forwards;
+}
+@keyframes slide-up {
+    from {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.carousel img:first-child {
+    margin-left: 0px;
+}
+.bg-img {
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media only screen and (max-width: 950px){
+    .info-container {
+        width: 100%;
+    }
+    .logo-container h1 {
+        margin-bottom: 0px;
+    }
+}
+/* campo de escrita */
+.todo-list{
+    width: 90%;
+    padding: 100px;
+    box-shadow: 0 10px 15px #ff8207;
+    border-radius: 5px;
+    background-color: #231d1e;
+}
+.list-head{
+    display: grid;
+    grid-template-columns: 4fr 1fr;    
+    gap: 20px;
+}
+.entered-list{
+    color: #231d1e;
+    padding: 10px;
+    width: 1000px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+.add-list{
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff8207;
+    outline: none;
+    font-size: 16px;
+    color: #231d1e;
+    cursor: pointer;
+    opacity: .6;
+    pointer-events: none;
+}
+.add-list.active{
+    opacity: 1;
+    pointer-events: all;
+}
+.tasks{
+    width: 100%;
+    margin-top: 30px;
+}
+.item{
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #ff8207;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-list h1{
+    font-size: 20px;
+    color: #ff8207;
+}
+.roteirista img{
+    padding-left: 5px;
+    width: 430px;
+}
+.roteirista{
+    padding-left: 10px;
+padding-top: 30px;
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 15px;
+    max-width: 800px;
+    margin:0;
+}

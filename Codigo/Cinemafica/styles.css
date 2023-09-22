@@ -1,0 +1,102 @@
+    body{
+        background-color: #231d1e;
+        font-family: Arial, Helvetica, sans-serif
+        
+
+
+    }
+
+    .area-login{
+        display:flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .login{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #ff8207;
+        border-radius: 10px;
+        width: 350px;
+        height: 300px;
+        padding:70px;
+
+
+    }
+
+    .login form{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .login input{
+        margin-top: 10px;
+        padding-left: 10px;
+        background-color: #880606;
+        bordeR: none;
+        color:#ff8207;
+        height: 45px;
+        outline: none;
+        border-radius: 10px;
+        width: auto;
+        
+    }
+
+    
+
+    .login img{
+        width: 350px;
+        height: auto;
+        margin-bottom: 25px;
+        
+    }
+
+    input::placeholder{
+        color: #CBDBF7;
+        font: size 14px; 
+        
+        
+    }
+
+    form [type="submit"] {
+        display: block;
+        background-color: #231d1e;
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bold;
+        cursor: pointer;
+
+    }
+
+    form [type="submit"]:hover{
+
+     background-color: #fcfcfc;
+    color:#44000b;
+    transition: 0.5s;
+
+    opacity: 0.7;
+
+}
+
+    p{
+
+        color:#231d1e;
+        font-weight: bold;
+        
+
+    }
+    a{
+        color:#880606;
+        text-decoration: none;
+        margin-left: 10px;
+    }
+
+    a:hover{
+        color:#fcfcfc;
+        text-decoration: none;
+        margin-left: 10px;
+    }
