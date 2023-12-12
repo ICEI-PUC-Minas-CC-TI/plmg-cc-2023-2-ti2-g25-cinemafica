@@ -1,31 +1,29 @@
 cff-version: 1.0.1
 message: Please cite this software using these metadata.
-title: 
+title: Cinemafica
 authors:
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names: 
-  - family-names: 
-    given-names:
+  - family-names: Martins Silva
+    given-names: Ana Cristina
+  - family-names: Teixeira de Paula Costa
+    given-names: Kênia
+  - family-names: Azevedo Cota Barbosa
+    given-names: Letícia
+  - family-names: Santos Diniz
+    given-names: Manoella
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Soares Vieira Vasconcelos 
+    given-names: Amália
   - name-suffix: Professor
     affiliation: PUC Minas
-    family-names: 
-    given-names: 
+    family-names: Cardoso Brandao
+    given-names: Wladmir
 keywords:
-  - 
-  - 
-repository-code: 
+  - Entretenimento
+  - Recomendações de filmes
+  - Resenhas 
+  - Comunidade 
+repository-code: https://github.com/ICEI-PUC-Minas-CC-TI/plmg-cc-2023-2-ti2-g25-cinemafica
 license: CC-BY-4.0
 version: 1.0.0
-date-released: 2022-07-14
+date-released: 2023-12-12
